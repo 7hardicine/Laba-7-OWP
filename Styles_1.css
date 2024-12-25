@@ -1,0 +1,23 @@
+.container {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+    padding: 5px 0;
+}
+
+p {
+    color: white;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+div {
+    margin: 10px;
+    background-color: grey;
+    border: 0px solid grey;
+    border-radius: 15px;
+}
