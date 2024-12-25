@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(img/Header.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+nav {
+    color: white;
+    padding: 1vh 0;
+    display: grid;
+    grid-template-columns: 11% 11% 11% 11% 11% 11%;
+}
+
+nav p {
+    font-size: 3vh;
+    text-align: center;
+    border-left: solid thin white;
+}
+
+p:first-child {
+    border: none;
+}
+
+.shape {
+    margin: 7vh;
+    width: 5vw;
+}
+
+.company-title {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+main {
+    column-gap: 6vw;
+    margin: 65vh 5vw;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+h1 {
+    font-size: 6vh;
+}
+
+.friends {
+    width: 25vw;
+    float: left;
+}
+
+.main-content {
+    font-size: 3vh;
+}

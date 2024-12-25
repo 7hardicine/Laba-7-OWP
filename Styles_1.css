@@ -1,23 +1,45 @@
 .container {
-    width: 40%;
+    display: grid;
+    width: 25%;
     margin: 0 auto;
     text-align: center;
-    background-color: black;
-    padding: 5px 0;
+    background-color: #333333;
+    border: 0px solid;
+    border-radius: 10px;
 }
 
 p {
+    font-size: 20px;
     color: white;
 }
 
 .section {
     display: grid;
     grid-template-columns: 20% 60% 20%;
+    margin: 0;
+}
+
+.section-content-container {
+    display: grid;
+    grid-template-rows: 20% 60% 20%;
+    margin: 0;
 }
 
 div {
     margin: 10px;
-    background-color: grey;
-    border: 0px solid grey;
-    border-radius: 15px;
 }
+
+.container-content {
+    margin: 5px;
+    background-color: #666666;
+    border: 0px solid;
+    border-radius: 10px;
+}
+
+.section-content {
+    background-color: #999999;
+    border: 0px solid;
+    border-radius: 5px;
+    margin: 5px;
+}
+
